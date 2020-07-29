@@ -19,11 +19,11 @@ public class Solution{
 }
 	 
 	 public static void main(String[] args) {
-		 System.out.println("Enter a number: ");
-		 Scanner input = new Scanner(System.in);
-		 int x = input.nextInt();
+		 
 		 Solution Reversed = new Solution();
-		 System.out.println(Reversed.reverse(x));
+		 System.out.println(Reversed.reverse(121));
+		 System.out.println(Reversed.reverse(1534236469));
+		 System.out.println(Reversed.reverse(-123));
 		
 	 }
 }
